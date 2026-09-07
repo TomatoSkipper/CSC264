@@ -1,0 +1,46 @@
+body {
+	background-color: #1e1e2f;
+}
+h1.Title {
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+}
+p.Desc {
+	color: white;
+}
+.sidebar {
+	background-color: #181824;
+	width: 220px;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.Dashboard {
+	display: flex;
+	grid-template-columns: repeat(auto-fit, minmax(12px, 1fr));
+	gap: 20px;
+	padding: 30px;
+	border: 3px solid black;
+}
+.card {
+	background-color: 1e1e2f;
+	border-radius: 12px;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s ease;
+}
+button {
+	background-color: #00ff88;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #00cc6a;
+}
